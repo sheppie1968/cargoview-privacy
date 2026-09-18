@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — CargoView</title>
+<meta name="description" content="Privacy policy for CargoView, a local IP camera viewer for Android.">
+<style>
+  :root {
+    --bg: #f7f7f5;
+    --panel: #ffffff;
+    --ink: #1b1d21;
+    --muted: #5c6270;
+    --rule: #e2e3e0;
+    --accent: #1f6feb;
+    --accent-soft: #eef4ff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14161a;
+      --panel: #1b1e23;
+      --ink: #e8eaed;
+      --muted: #a2a9b6;
+      --rule: #2b2f36;
+      --accent: #6ea8ff;
+      --accent-soft: #1d2735;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: 44rem; margin: 0 auto; padding: 16px; }
+  header {
+    padding-block: 2.5rem 1.5rem;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 2rem;
+  }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .5rem; letter-spacing: -.02em; }
+  .updated { color: var(--muted); font-size: .9rem; margin: 0; }
+  .lede {
+    margin: 1.25rem 0 0;
+    font-size: 1.05rem;
+    color: var(--ink);
+  }
+  h2 {
+    font-size: 1.15rem;
+    margin: 2.25rem 0 .6rem;
+    letter-spacing: -.01em;
+  }
+  p { margin: 0 0 1rem; }
+  ul { margin: 0 0 1rem; padding-left: 1.25rem; }
+  li { margin-bottom: .5rem; }
+  code {
+    background: var(--accent-soft);
+    color: var(--ink);
+    padding: .1em .4em;
+    border-radius: 4px;
+    font-size: .875em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  }
+  a { color: var(--accent); }
+  .callout {
+    background: var(--panel);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--accent);
+    border-radius: 8px;
+    padding: 1rem 1.15rem;
+    margin: 0 0 1rem;
+  }
+  .callout p:last-child { margin-bottom: 0; }
+  footer {
+    margin-top: 3rem;
+    padding-block: 1.5rem 3rem;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: .9rem;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Privacy Policy for CargoView</h1>
+  <p class="updated">Last updated: 18 September 2026</p>
+  <p class="lede">CargoView is a local video viewer for IP cameras (Uniview, Hikvision,
+  Dahua, TP-Link, and other RTSP-compatible devices) on your own network. This policy
+  explains what data the app handles.</p>
+</header>
+
+<h2>Data we collect</h2>
+<div class="callout">
+  <p>CargoView does not collect, transmit, or share any personal data with us or any
+  third party. We have no servers, and the app contains no analytics, advertising, or
+  crash-reporting SDKs of any kind.</p>
+</div>
+
+<h2>Data stored on your device</h2>
+<p>The app stores your camera connection settings — IP address, port, username, password
+and stream preferences — locally on your device only, using Android's DataStore. This
+information:</p>
+<ul>
+  <li>Never leaves your device except to connect directly to the camera you configured,
+      over your local network.</li>
+  <li>Is excluded from Android's cloud backup and from device-to-device transfer, so it is
+      never copied off your device by the system.</li>
+  <li>Is not accessible to us, as we do not operate any backend service.</li>
+  <li>Is removed if you clear the app's data or uninstall the app.</li>
+</ul>
+
+<h2>Network access</h2>
+<p>The app declares the following permissions:</p>
+<ul>
+  <li><strong>Internet access</strong> (<code>INTERNET</code>) — required to open a video
+      connection (RTSP) directly to your camera on your local network.</li>
+  <li><strong>Network state access</strong> (<code>ACCESS_NETWORK_STATE</code>) — used to
+      read your device's local network address range, so the optional “Scan Network for
+      Cameras” feature can look for cameras on your own subnet. The scan contacts only
+      addresses on your local network; it sends nothing outside it.</li>
+  <li><strong>Wake lock</strong> (<code>WAKE_LOCK</code>) — declared by the Android media
+      playback library the app uses, to keep video playing smoothly. It grants no access to
+      your data.</li>
+</ul>
+<p>The optional “Find Camera Automatically” feature listens for cameras advertising
+themselves over mDNS on your local network. Like the subnet scan, it runs only when you tap
+it and never leaves your network.</p>
+
+<h2>Demo mode</h2>
+<p>A new install starts in Demo mode, which plays a short sample clip bundled inside the app
+itself. Demo mode needs no internet connection and contacts no server — ours or anyone
+else's.</p>
+
+<h2>Third-party services</h2>
+<p>CargoView does not use any third-party analytics, advertising, or tracking SDKs.</p>
+
+<h2>Children's privacy</h2>
+<p>CargoView does not knowingly collect data from anyone, including children, because it
+does not collect data at all.</p>
+
+<h2>Changes to this policy</h2>
+<p>If this policy changes, the updated version will be posted at this same location with a
+revised “Last updated” date.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy can be sent to
+<a href="mailto:shepherdmark1968@gmail.com">shepherdmark1968@gmail.com</a>.</p>
+
+<footer>
+  CargoView — Android rearview monitor for vans and large vehicles.
+</footer>
+
+</div>
+</body>
+</html>
