@@ -1,8 +1,12 @@
 # Privacy Policy for CargoView
 
-**Last updated: 18 September 2026**
+**Last updated: 3 October 2026**
 
 CargoView is a local video viewer for IP cameras (Uniview, Hikvision, Dahua, TP-Link, and other RTSP-compatible devices) on your own network. This policy explains what data the app handles.
+
+## Who We Are
+
+CargoView (package name `com.rearviewvan.app`) is published on Google Play under the developer name **Mark Shepherd**, on behalf of **HYBRID LEARNING SOLUTIONS (PTY) LTD**, Kuils River, South Africa (https://hybride.co.za/). HYBRID LEARNING SOLUTIONS (PTY) LTD is responsible for the app and for this policy. In this policy, "we", "us" and "our" mean HYBRID LEARNING SOLUTIONS (PTY) LTD.
 
 ## Data We Collect
 
@@ -45,4 +49,4 @@ If this policy changes, the updated version will be posted at this same location
 
 ## Contact
 
-Questions about this policy can be sent to: shepherdmark1968@gmail.com
+Questions about this policy can be sent to Mark Shepherd, HYBRID LEARNING SOLUTIONS (PTY) LTD, at: shepherdmark1968@gmail.com
